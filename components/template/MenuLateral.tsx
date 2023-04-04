@@ -6,10 +6,10 @@ export default function MenuLateral() {
     return (
         <aside>
             <ul className={``}>
-                <MenuItem url="/" texto="Home" icone={IconHome}/>
-                <MenuItem url="/"  texto="Settings" icone={IconSetting}/>
-                <MenuItem url="/"  texto="Alert" icone={IconAlert}/>
-                <MenuItem url="/"  texto="Study" icone={IconCode}/>
+                <MenuItem url="/Home" texto="Home" icone={IconHome}/>
+                <MenuItem url="/Settings"  texto="Settings" icone={IconSetting}/>
+                <MenuItem url="/Alert"  texto="Alert" icone={IconAlert}/>
+                <MenuItem url="/Study"  texto="Study" icone={IconCode}/>
             </ul>
         </aside>
     )
